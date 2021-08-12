@@ -1,0 +1,97 @@
+/* Styling single page website  */
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 5%;
+    margin-left: 65px;
+}
+.logotext{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    padding-left: 25px;
+    color: white;
+}
+
+nav{
+    background-color: black;
+}
+ul{
+    display: inline-block;
+    position: absolute;
+    left: 1000px;
+    top: 15px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+#About_Us{
+    background-color: rgb(210, 228, 235);
+    padding: 30px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+#About_Us p{
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+    font-size: 17px;
+}
+#Images{
+    background-color: lightgray;
+    padding: 30px;
+}
+#Images img{
+    width: 33%;
+}
+#Videos{
+    background-color: rgb(255, 208, 189);
+    padding: 30px;
+}
+#Videos iframe{
+    width: 33%;
+}
+#Best_Episodes{
+    background-color: lightyellow;
+    padding: 30px;
+}
+#Best_Episodes p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 17px;
+}
+#Best_Episodes iframe{
+    display: block;
+    margin: auto;
+}
+h5{
+    text-align: center;
+    font-size: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
